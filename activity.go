@@ -27,7 +27,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
 	name := context.GetInput("name").(string)
 	salutation := context.GetInput("salutation").(string)
-	log.Debugf("Flogo engine says [%s] to [%s]", salutation, name)
+	log.Infof("Flogo engine says [%s] to [%s]", salutation, name)
 
 	context.SetOutput("result", "The flogo engine says "+salutation+" to "+name)
 
