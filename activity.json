@@ -2,6 +2,7 @@
   "name": "demoActivity",
   "version": "0.0.1",
   "type": "flogo:activity",
+  "ref": "github.com/rameshpolishetti/demoActivity",
   "description": "demo activity",
   "author": "Ramesh Polishetti <rpolishe@tibco.com>",
   "inputs":[
